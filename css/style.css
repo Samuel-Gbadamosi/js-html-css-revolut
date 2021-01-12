@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fd3a69;
+  font-family: sans-serif,serif;
+}
+
+
+.pic{
+  padding-left: 10px;
+  height: 80px;
+  /* width: 100px; */
+}
+
+.header-top{
+  height: 80px;
+  width: 100%;
+
+background-color: white;
+display: flex;
+}
+.content {
+  display: flex;
+}
+.content li,a{
+ text-decoration: none;
+ list-style: none;
+ text-transform: uppercase;
+ /* padding-left: 24px; */
+ color:black;
+
+}
+
+
+.scarica {
+color: blue;
+float: right;
+padding-left: 50px;
+padding-top: 10px;
+}
+.scarica button{
+  height: 60px;
+  width: 180px;
+  background-color: #ff577f;
+  border-radius: 40px;
+  font-size: 20px;
+  color:white;
+}
+
+ul li a:hover{
+  background-color: lightblue;
+ font-size: 25px;
+ height: 40px;
+  border-radius: 10px;
+}
+
+.content li {
+  padding-left: 30px;
+  padding-top: 32px;
+}
+.drop-down :hover{
+  background-color: #54e346;
+}
+.drop-down{
+  height: 200px;
+  width: 150px;
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid lightgrey;
+  box-shadow: 2px;
+  display: none;
+}
+
+.size{
+  height: 450px;
+  width: 200px;
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid lightgrey;
+  box-shadow: 2px;
+line-height: 2;
+color: grey;
+padding-left: 5px;
+}
+
+.size2{
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid lightgrey;
+  box-shadow: 2px;
+line-height: 2;
+color: grey;
+padding-left: 5px;
+}
+.size3{
+  height: 130px;
+  width: 200px;
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid lightgrey;
+  box-shadow: 2px;
+line-height: 2;
+color: grey;
+padding-left: 5px;
+}
+
+
+.drop-down .word{
+  font-size: 15px;
+  text-align: center;
+  line-height: 4.3;
+  text-transform: none;
+  color: grey;
+}
