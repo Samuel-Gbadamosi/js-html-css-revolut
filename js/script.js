@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$('.drop-menu ').click(clicakble)
+$('.drop-menu ').hover(clicakble)
 
 
 });

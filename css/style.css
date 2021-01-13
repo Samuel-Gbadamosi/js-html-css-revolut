@@ -43,6 +43,10 @@ float: right;
 padding-left: 50px;
 padding-top: 10px;
 }
+
+.scarica button:hover{
+  background-color: blue;
+}
 .scarica button{
   height: 60px;
   width: 180px;
